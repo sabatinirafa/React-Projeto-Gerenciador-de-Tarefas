@@ -5,8 +5,9 @@ function List (props) {
     <>
       <h1>Minha lista</h1>
       <ul>
-        <Item marca="Rarri"/>
-        <Item marca="Lambo"/>
+        <Item marca="Rarri" ano_lancamento={1985}/>
+        <Item marca="Lambo" ano_lancamento={1964}/>
+        <Item />
       </ul>
     </>
   )
